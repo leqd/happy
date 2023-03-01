@@ -9,13 +9,13 @@
     <body>
         <input class="input" type="text" />
         <button class="btn">Проверить</button>
-        <p style="display: none" class="addres">АДРЕС</p>
+        <p style="display: none" class="addres">ул. Курляндская, д. 49 в 16:40</p>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
     <script>
         $(".btn").click(function () {
-            if ($(".input").val() === "password") {
+            if ($(".input").val() === "Аркаша") {
                 $(".addres").show();
             }
         });
